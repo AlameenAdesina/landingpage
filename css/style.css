@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: grid;
+    background: purple;
+}
+.container{
+    display:grid;
+    grid-template-columns:60% 40%;
+    background-size: cover;
+    height: 100vh;
+    
+}
+.container h1{ 
+    font-size:30px;
+    color: white;
+    margin: 30px;
+    
+    /* color: white; */
+}
+.container h1#alone{ 
+    font-size:30px;
+    color: white;
+    margin: 30px;
+    margin-left: 0;
+    
+    /* color: white; */
+}
+.container .rhs{
+    display: grid;
+    grid-template-rows: 30% 70%;
+}
+.container .rhs .rhs-top{
+    font-weight:bold;
+    margin-top: 0;
+    margin-right: 30px;
+
+
+}
+.container .rhs .rhs-middle h2{
+    font-size:30px;
+    color: gold;
+
+}
+.container .rhs-middle{
+    justify-content: center;
+    font-size: 30px;
+    color: lightgray;
+}
+.container .rhs .rhs-middle .input1{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    font-size: 20px;
+    width: 300px;
+    background-color: inherit;
+}
+
+.container .rhs .rhs-middle .input2{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    font-size: 20px;
+    width: 220px;
+    background-color: inherit;
+}
+.container .rhs .rhs-middle .input3{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    width: 70px;
+    font-size: 20px;
+    background-color: inherit;
+}
+.container .rhs .button{
+border: white solid 1px;
+background: white;
+color: inherit;
+}
