@@ -32,7 +32,7 @@ body{
     height: 100vh;
     
 }
-.container h1{ 
+#h1{ 
     font-size:30px;
     color: white;
     margin: 30px;
@@ -51,10 +51,10 @@ body{
     display: grid;
     grid-template-rows: 30% 70%;
 }
-.rhs-top a{
+.rhs-top a, .rhs-top i, .strong{
     float: left;
     font-weight:bold;
-    margin-top: 50;
+    margin-top: 30px;
     margin-right: 10px;
     margin-left: 10px;
     padding-left: 0;
@@ -63,7 +63,11 @@ body{
 
 
 }
-.container .rhs .rhs-middle h2{
+
+.strong{
+    margin-top: 22px;
+}
+.container .rhs .rhs-middle h2 ,.strong{
     font-size:30px;
     color: gold;
 
@@ -111,6 +115,27 @@ padding: 10px 15px;
 margin-top: 20px;
 
 }
-h1, .rhs{
+.lhs , .rhs{
     z-index: 2;
+}
+
+.com{
+    margin-bottom: 20px;
+}
+
+#quote{
+   
+    color: #a7759a;
+    z-index: 1;
+}
+
+.container .lhs{
+    display: grid;
+    grid-template-rows: 80% 20%;
+}
+
+.container .lhs i{
+    color: lightgrey;
+    font-size: 20px;
+    margin-left: 20px;
 }
