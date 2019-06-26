@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* a{
+    text-decoration: none;
+    color: purple;
+} */
+body{
+    display: grid;
+    background-image:url("../image/img.jpg");
+    background-size: cover;
+    position: centre;
+    background-repeat: no-repeat;
+    min-height: 100%;
+
+    
+}
+.bg-color{
+    background-color: purple;
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    opacity: 0.7;
+    z-index: 1;
+}
+
+.container{
+    display:grid;
+    grid-template-columns:60% 40%;
+    background-size: cover;
+    height: 100vh;
+    
+}
+.container h1{ 
+    font-size:30px;
+    color: white;
+    margin: 30px;
+    
+    /* color: white; */
+}
+.container h1#alone{ 
+    font-size:30px;
+    color: white;
+    margin: 30px;
+    margin-left: 0;
+    
+    /* color: white; */
+}
+.container .rhs{
+    display: grid;
+    grid-template-rows: 30% 70%;
+}
+.rhs-top a{
+    float: left;
+    font-weight:bold;
+    margin-top: 50;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-left: 0;
+    text-decoration: none;
+    color: white;
+
+
+}
+.container .rhs .rhs-middle h2{
+    font-size:30px;
+    color: gold;
+
+}
+.container .rhs-middle{
+    justify-content: center;
+    font-size: 30px;
+    color: lightgray;
+}
+.container .rhs .rhs-middle .input1{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    font-size: 20px;
+    width: 300px;
+    background-color: inherit;
+}
+
+.container .rhs .rhs-middle .input2{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    font-size: 20px;
+    width: 220px;
+    background-color: inherit;
+}
+.container .rhs .rhs-middle .input3{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    width: 70px;
+    font-size: 20px;
+    background-color: inherit;
+}
+.button{
+/* border: white solid 1px; */
+background-color: white;
+color: purple;
+border: none;
+text-align: center;
+border-radius: 15px;
+text-decoration: none;
+font-size: 20px;
+padding: 10px 15px;
+margin-top: 20px;
+
+}
+h1, .rhs{
+    z-index: 2;
+}
